@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Examples | Dojo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Dojo">
+		<meta property="og:url" content="https://dojo.github.io/index.html">
+		<meta property="og:site_name" content="Dojo">
+		<meta property="og:locale" content="en">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Dojo">
+		<meta name="twitter:creator" content="@https:&#x2F;&#x2F;twitter.com&#x2F;dojo">
+		<link rel="alternate" href="/atom.xml" title="Dojo" type="application/atom+xml">
+		<link rel="icon" href="https://dojo.io/images/favicons/favicon.ico">
+		<link rel="stylesheet" href="https://dojo.io/css/main.css">
+
+		<link rel="stylesheet" href="https://dojo.io/css/prism-ghcolors.css" type="text/css">
+
+		<style>
+			.body-front-page .bodyContainer {
+				align-items: initial;
+			}
+
+			.body-front-page .bodyContainer section.features {
+				display: flex !important;
+				margin: 3em;
+				align-items: flex-start;
+			}
+
+			.body-front-page .bodyContainer section.features .feature {
+				height: auto;
+				width: auto;
+			}
+
+			@media screen and (max-width: 768px) {
+				.body-front-page .bodyContainer section.features {
+					flex-direction: column;
+					margin: 1.5em 0;
+					align-items: center;
+				}
+
+				.body-front-page .bodyContainer section.features .feature {
+					height: auto;
+					width: auto;
+				}
+			}
+		</style>
+	</head>
+
+	<body class="body-front-page">
+		<div class="page-wrapper">
+			<header class="header">
+				<div class="container">
+					<nav class="navbar">
+						<div class="navbar-brand">
+							<a href="https://dojo.io/" class="navbar-item"><img src="https://dojo.io/images/logos/dojo2-logo-white.svg" class="site-logo" alt="Dojo"></a>
+							<div class="navbar-burger">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<div class="navbar-menu">
+							<div class="navbar-start"></div>
+							<div class="navbar-end">
+								<a class="navbar-item" href="https://dojo.io/docs/fundamentals/accessibility/index.html">Docs</a>
+								<a class="navbar-item" href="https://dojo.io/tutorials">Tutorials</a>
+								<a class="navbar-item" href="https://dojo.io/cookbook/modern-web-apps/efficient-state-management.html">Cookbook</a>
+								<a class="navbar-item" href="https://dojo.io/blog">Blog</a>
+								<a class="navbar-item" href="https://github.com/dojo/meta/"><span class="icon is-medium"><i class="fa fa-github" aria-hidden="true"></i></span></a>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</header>
+
+			<div class="content-wrapper">
+				<div class="page-content">
+					<div class="bodyContainer">
+						<section class="features">
+							<div class="typescript feature">
+								<div class="icon">
+									<img src="https://dojo.io/images/icon-widget-authoring.svg" alt="ToDoMVC">
+								</div>
+								<h4>
+									TodoMVC
+								</h4>
+								<p>
+									<a href="./todo-mvc/">Dojo 2 TodoMVC</a><br>
+									<a href="./todo-mvc-tsx/">TSX TodoMVC variant</a><br>
+									<a href="./todo-mvc-kitchensink/">Feature-rich TodoMVC variant</a>
+								</p>
+							</div>
+							<div class="widget-authoring feature">
+								<div class="icon">
+									<img src="https://dojo.io/images/icon-components.svg" alt="widget authoring">
+								</div>
+								<h4>
+									Widgets and Custom Elements
+								</h4>
+								<p>
+									<a href="./widget-showcase/">Dojo 2 widget showcase</a><br>
+									<a href="./custom-element-showcase/">Custom elements showcase variant</a><br>
+									<a href="./custom-element-menu/">Custom elements Menu demo</a>
+								</p>
+							</div>
+							<div class="routing feature">
+								<div class="icon">
+									<img src="https://dojo.io/images/icon-routing.svg" alt="routing">
+								</div>
+								<h4>
+									Other Apps
+								</h4>
+								<p>
+									<a href="./realworld">Dojo 2 RealWorld</a><br>
+									<a href="https://dojo-2-hnpwa-d668d.firebaseapp.com/">Dojo 2 HNPWA</a>
+								</p>
+							</div>
+						</section>
+
+						<section class="links">
+							<div class="container">
+								<h2>
+									Build with Dojo
+								</h2>
+								<a class="reference-guide" href="https://dojo.io/docs">
+									Reference Guide
+								</a>
+								<a class="tutorials" href="https://dojo.io/tutorials">
+									Tutorials
+								</a>
+								<!--<a class="api" href="https://dojo.io/api">
+									API Docs
+								</a>-->
+							</div>
+							<div class="bottom-border"></div>
+						</section>
+					</div>
+				</div>
+				<footer class="footer">
+					<div class="container">
+						<div class="info">
+							<span class="is-size-7">&copy; 2018 JS Foundation, All Rights Reserved.</span>
+						</div>
+						<div class="link-container">
+							<div class="links">
+								<a href="https://twitter.com/dojo" class="twitter"></a>
+								<a href="https://github.com/dojo" class="github"></a>
+							</div>
+						</div>
+					</div>
+				</footer>
+				<script>
+					(function () {
+						var navBurger = document.querySelector('.header .navbar-burger');
+						var navMenu = document.querySelector('.header .navbar-menu');
+						navBurger.addEventListener('click', function () {
+							navBurger.classList.toggle('is-active');
+							navMenu.classList.toggle('is-active');
+						});
+					})();
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,90 @@
+/*!
+ * 
+ * [Dojo](https://dojo.io/)
+ * Copyright [JS Foundation](https://js.foundation/) & contributors
+ * [New BSD license](https://github.com/dojo/meta/blob/master/LICENSE)
+ * All rights reserved
+ * 
+ */
+._2onPU-Eo {
+	-ms-flex-line-pack: stretch;
+	    align-content: stretch;
+	-webkit-box-align: stretch;
+	    -ms-flex-align: stretch;
+	        align-items: stretch;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.sonKWvXO {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+._3mbm3g6E {
+	background-clip: padding-box;
+	cursor: pointer;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 auto;
+	        flex: 0 0 auto;
+}
+
+.tME_BbYt {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 auto;
+	        flex: 0 0 auto;
+}
+
+._2yqN5sLA > ._3mbm3g6E {
+	width: 1px;
+	cursor: ew-resize;
+}
+
+.sonKWvXO > ._3mbm3g6E {
+	height: 1px;
+	cursor: ns-resize;
+}
+
+.iAE90tax {
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 1 0%;
+	        flex: 1 1 0%;
+}
+
+.iAE90tax, .tME_BbYt {
+	overflow: auto;
+}
+
+._2onPU-Eo._18x3s0wo {
+	display: block;
+	overflow: auto;
+}
+:root {
+
+	/* Z-index levels */
+}
+
+._1i-YACyq { }
+
+.tRn-kVfg { }
+
+._1qU3xARx {
+	background-color: #424242;
+}
+
+.motBnyKz { }
+
+._2hxkzUuq { }
+
+._2e-BLKOq { }
+
+._3VOXe1QL {}
+
+/*# sourceMappingURL=split-pane-0.6.1.css.map*/

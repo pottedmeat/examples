@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@webcomponents/custom-elements@~1.0.8",
+        "scope": "@webcomponents",
+        "escapedName": "@webcomponents%2fcustom-elements",
+        "name": "@webcomponents/custom-elements",
+        "rawSpec": "~1.0.8",
+        "spec": ">=1.0.8 <1.1.0",
+        "type": "range"
+      },
+      "/home/travis/build/dojo/examples/custom-element-showcase"
+    ]
+  ],
+  "_from": "@webcomponents/custom-elements@>=1.0.8 <1.1.0",
+  "_id": "@webcomponents/custom-elements@1.0.8",
+  "_inCache": true,
+  "_location": "/@webcomponents/custom-elements",
+  "_nodeVersion": "9.1.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/custom-elements-1.0.8.tgz_1515712202062_0.39662988344207406"
+  },
+  "_npmUser": {
+    "name": "bicknellr",
+    "email": "bicknellr@gmail.com"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@webcomponents/custom-elements@~1.0.8",
+    "scope": "@webcomponents",
+    "escapedName": "@webcomponents%2fcustom-elements",
+    "name": "@webcomponents/custom-elements",
+    "rawSpec": "~1.0.8",
+    "spec": ">=1.0.8 <1.1.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@webcomponents/custom-elements/-/custom-elements-1.0.8.tgz",
+  "_shasum": "b7b8ef7248f7681d1ad4286a0ada5fe3c2bc7228",
+  "_shrinkwrap": null,
+  "_spec": "@webcomponents/custom-elements@~1.0.8",
+  "_where": "/home/travis/build/dojo/examples/custom-element-showcase",
+  "author": {
+    "name": "The Polymer Authors"
+  },
+  "bugs": {
+    "url": "https://github.com/webcomponents/custom-elements/issues"
+  },
+  "dependencies": {},
+  "description": "HTML Custom Elements Polyfill",
+  "devDependencies": {
+    "@webcomponents/html-imports": "^1.0.0",
+    "@webcomponents/template": "^1.0.0",
+    "@webcomponents/webcomponents-platform": "^1.0.0",
+    "bower": "^1.8.0",
+    "es6-promise": "^4.1.0",
+    "google-closure-compiler": "^20170409.0.0",
+    "gulp": "^3.8.8",
+    "gulp-sourcemaps": "^1.6.0",
+    "rollup-stream": "^1.14.0",
+    "vinyl-source-stream": "^1.1.0",
+    "web-component-tester": "^6.0.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dist": {
+    "integrity": "sha512-BPJillR1En1rsbQY3sdHL8o67fRjFqVrbusL395ei4Y5miZEGyQOsVAH9rZR5Vbutkt4lSepdfJFiTl5f6/Lkw==",
+    "shasum": "b7b8ef7248f7681d1ad4286a0ada5fe3c2bc7228",
+    "tarball": "https://registry.npmjs.org/@webcomponents/custom-elements/-/custom-elements-1.0.8.tgz"
+  },
+  "gitHead": "134c58e6b21a6788f18b715ac5d70ede0cad779f",
+  "homepage": "https://webcomponents.org/polyfills",
+  "keywords": [
+    "custom-elements",
+    "customelements",
+    "web-components",
+    "webcomponents",
+    "polyfill",
+    "shim"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "custom-elements.min.js",
+  "maintainers": [
+    {
+      "name": "azakus",
+      "email": "dfreedm2@gmail.com"
+    },
+    {
+      "name": "bicknellr",
+      "email": "bicknellr@gmail.com"
+    },
+    {
+      "name": "webcomponents",
+      "email": "admin@polymer-project.org"
+    }
+  ],
+  "name": "@webcomponents/custom-elements",
+  "optionalDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webcomponents/custom-elements.git"
+  },
+  "scripts": {
+    "bower-install": "$(npm bin)/bower install",
+    "build": "gulp",
+    "test": "wct"
+  },
+  "version": "1.0.8"
+}
